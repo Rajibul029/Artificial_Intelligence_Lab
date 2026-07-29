@@ -8,6 +8,8 @@
 | BWU/BTA/24/714 | Bikash Biswas | Backend & Preprocessing |
 | BWU/BTA/24/710 | Animesh Das | Frontend & UI/UX Interface |
 | BWU/BTA/24/718 | Tania Ghosh | System Testing & Data Engineering |
+
+Project role may change depending on timeline, situation and conditions.
 ### 📍 Week 1: Project Initiation & System Requirements
 * **Core Implementations:**
   * **Team Task Allocation:** Apportioned algorithmic model building, user interface layout, dataset pipeline cleanup, and system validation across all 4 group members.
