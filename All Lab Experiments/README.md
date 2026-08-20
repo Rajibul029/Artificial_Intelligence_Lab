@@ -46,7 +46,7 @@ A weekly running log of all Artificial Intelligence Lab Exp.
 
 ---
 
-### 📍 Week 5: Beam Search
+### 📍 Week 5: Beam Search Algorithm
 
 * **Core Implementations:**
   * **NetworkX:** Constructed a directed graph with nodes, edges, heuristic values, and fixed coordinates to visualize the search structure.
@@ -57,7 +57,19 @@ A weekly running log of all Artificial Intelligence Lab Exp.
 
 ---
 
-### 📍 Week 6: [Coming Soon - Every Thursday]
+### 📍 Week 6: AO* Search Algorithm
+
+* **Core Implementations:**
+  * **AND-OR Graph:** Represented a problem using an AND-OR graph where OR nodes select the most promising alternative and AND nodes require multiple child nodes to be solved together.
+  * **Heuristic Function:** Assigned heuristic values h(n) to estimate the remaining cost from each node to the goal and guide the search toward promising solutions.
+  * **Cost Calculation:** Calculated the cost of OR and AND branches to determine the minimum-cost solution. For an OR node, the minimum-cost child is selected, while an AND node combines the costs of all required children.
+  * **Backtracking:** Updated the estimated costs of parent nodes after solving their child nodes and propagated the improved values backward through the graph.
+  * **AO_star Search:** Implemented a heuristic-driven algorithm that recursively expands the most promising solution graph and continues updating costs until the optimal solution subgraph is identified.
+  * **Graph Visualization:** Used NetworkX and Matplotlib to visualize AND/OR relationships, explored nodes, selected solution branches, and the final optimal solution graph.
+
+---
+
+### 📍 Week 7: [Coming Soon - Every Thursday]
 
 * **Core Implementations:**
   * [Coming Soon]
