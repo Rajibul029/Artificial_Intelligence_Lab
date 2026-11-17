@@ -129,7 +129,66 @@ A weekly running log of all Artificial Intelligence Lab Exp.
 
 ---
 
-### 📍 Week 10: [Coming Soon - Every Thursday]
+### 📍 Week 11: Random Forest Classification
+
+* **Core Implementations:**
+
+  * **Iris Dataset:** Loaded the Iris dataset containing 150 samples, four numerical features, and three classes: Setosa, Versicolor, and Virginica.
+  * **Train-Test Split:** Divided the dataset into training and testing sets using an 80/20 split with stratification to maintain class distribution.
+  * **Random Forest Classifier:** Implemented RandomForestClassifier using 100 decision trees (n_estimators=100) and Gini impurity as the splitting criterion.
+  * **Ensemble Learning:** Combined predictions from multiple decision trees to improve classification performance and produce the final predicted class.
+  * **Model Training:** Trained the Random Forest model using the training dataset and learned patterns from the input features.
+  * **Prediction:** Used the trained model to predict the Iris species of the test samples.
+  * **Accuracy Evaluation:** Evaluated model performance using accuracy_score and classification_report, including precision, recall, and F1-score.
+
+---
+
+### 📍 Week 12: Convolutional Neural Network (1D CNN) Classification
+
+* **Core Implementations:**
+
+  * **Iris Dataset:** Loaded the Iris dataset containing 150 samples, four numerical features, and three flower classes: Setosa, Versicolor, and Virginica.
+  * **Dataset Preprocessing:** Divided the dataset into training and testing sets using an 80/20 split with stratification to maintain class distribution.
+  * **Feature Scaling:** Applied StandardScaler to standardize numerical features and improve model training.
+  * **Data Reshaping:** Reshaped the input data into a 3D format (samples, features, channels) to make it compatible with the 1D CNN architecture.
+  * **One-Hot Encoding:** Converted target class labels into categorical format using to_categorical() for multiclass classification.
+  * **1D CNN Architecture:** Developed a 1D Convolutional Neural Network using Conv1D, BatchNormalization, and ReLU activation layers to extract feature patterns.
+  * **Global Average Pooling:** Applied GlobalAveragePooling1D to reduce feature dimensions and extract important feature representations.
+  * **Dense Classification Layers:** Used fully connected Dense layers with ReLU activation, Dropout for regularization, and Softmax for multiclass probability prediction.
+
+---
+
+### 📍 Week 13: Convolutional Neural Network (2D CNN) Classification
+
+* **Core Implementations:**
+
+  * **Fashion-MNIST Dataset:** Loaded the Fashion-MNIST dataset containing 70,000 grayscale images of 10 fashion categories, with 60,000 training images and 10,000 testing images.
+  * **Image Preprocessing:** Normalized pixel values from 0–255 to 0–1 and reshaped images into a 4D tensor format (samples, height, width, channels) for 2D CNN processing.
+  * **One-Hot Encoding:** Converted target class labels into categorical format using to_categorical() for multiclass classification.
+  * **Training and Validation Split: Divided the training dataset into training and validation sets using an 85/15 split with stratification.
+  * **2D CNN Architecture:** Developed a Convolutional Neural Network using three Conv2D layers with 32, 64, and 128 filters to extract spatial features from fashion images.
+  * **Batch Normalization and Max Pooling:** Applied BatchNormalization, ReLU activation, and MaxPooling2D to improve training stability and reduce feature dimensions.
+  * **Global Pooling Feature Fusion:** Combined GlobalMaxPooling2D and GlobalAveragePooling2D to capture important spatial feature representations.
+  * **Dense Classification Layers:** Used fully connected Dense layers with ReLU activation, Dropout for regularization, and Softmax for predicting probabilities across 10 fashion categories.
+
+---
+
+### 📍 Week 14: Time Series Analysis and Forecasting
+
+* **Core Implementations:**
+
+  * **Dataset Creation:** Generated a sample monthly sales dataset containing 60 observations from January 2020 using trend, seasonality, and random noise.
+  * **Time Series Visualization:** Plotted monthly sales data to understand its overall pattern and variations over time.
+  * **Moving Average:** Applied a 3-month rolling average to smooth fluctuations and identify underlying trends.
+  * **Time Series Decomposition:** Used seasonal_decompose() with an additive model and period 12 to separate the series into trend, seasonal, and residual components.
+  * **Stationarity Testing**: Applied the Augmented Dickey-Fuller (ADF) test to check whether the time series is stationary using its p-value.
+  * **First Order Differencing:** Used .diff() to calculate differences between consecutive observations and reduce non-stationarity.
+  * **ADF Test After Differencing:** Repeated the ADF test on differenced data to check whether stationarity improved.
+  * **ACF Plot:** Used the Autocorrelation Function to identify correlations between observations and their previous time steps.
+
+---
+
+### 📍 Week 15: [Coming Soon - Every Thursday]
 
 * **Core Implementations:**
   * [Coming Soon]
